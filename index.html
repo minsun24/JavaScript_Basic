@@ -5,12 +5,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 
 <body>
+  <div class="container">
+    <h1>11일차 JS 기본 세션</h1>
+    <h2>과제 : 함수 구현하기</h2>
+
+    <form>
+      <label>이름</label>
+      <input required type="text" name="name" id="name">
+      <br /><br />
+      <label>나이</label>
+      <input required class="input" type="number" id="age" />
+      <br />
+      <br />
+      <button type="button" class="submit">완료</button>
+    </form>
+
+    <div class="result">
+      <h3>과제 1: 소개말 작성하기</h3>
+      <span class="intro">작성한 소개말 :&nbsp; </span>
+      <br />
+
+      <div class="result assign2">
+        <h3>과제 2: 나누어 떨어지지 않는 값 찾기</h3>
+        <p>테스트케이스 1 : ([5, 9, 10, 7], 5), return : [7, 9]</p>
+        <span>테스트케이스는 하나만 공개합니다.</span>
+        <br />
+        <h3>결과</h3>
+        <pre class="res"></pre>
+      </div>
+    </div>
+  </div>
 </body>
 
-<script src="index.js"></script>
+<script src="assign.js" type="module"></script>
+<script src="index.js" type="module"></script>
 
 </html>
