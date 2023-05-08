@@ -1,8 +1,8 @@
 // 과제 1
-export const makeIntro = (name, age) => {
-  // 입력한 이름과 나이의 문자열 값이 입력으로 주어집니다.
+export const makeIntro = (name, mbti) => {
+  // 입력한 이름과 MBTI의 문자열 값이 입력으로 주어집니다.
   // 당신의 소개말을 적어서 문자열로 return 하세요.
-  // 형식은 자유지만 이름과 나이가 포함되어야 합니다.
+  // 형식은 자유지만 이름과 MBTI가 포함되어야 합니다.
 
   // 여기다 코드를 작성하세요.
   let introduce = '';
